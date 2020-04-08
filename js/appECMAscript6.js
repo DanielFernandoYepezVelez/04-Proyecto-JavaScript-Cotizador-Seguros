@@ -1,7 +1,7 @@
 /* Accediendo Al DOM */
 const selectMarcas = document.querySelector('#marca');
 const selectAnios = document.getElementById('anio');
-const radioButtonTipo = document.querySelector('input[name="tipo"]:checked');
+// const radioButtonTipo = document.querySelector('input[name="tipo"]:checked').value;
 const formulario = document.querySelector('#cotizar-seguro');
 const resultadoFinal = document.getElementById('resultado');
 
@@ -162,7 +162,7 @@ function obtenerDatosFormulario(e) {
 
     /* IMPORTANTE */
     /* De Esta Forma Se Leen Los Radio Buttons En JS */
-    const seguroSeleccionado = radioButtonTipo.value;
+    const seguroSeleccionado = document.querySelector('input[name="tipo"]:checked').value;
 
     /* Creamos Una Instancia U Objeto De Interfaz Y De Seguro */
     const interfaz = new Interfaz();
