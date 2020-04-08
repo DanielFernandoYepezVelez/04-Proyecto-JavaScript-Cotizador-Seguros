@@ -74,7 +74,7 @@ class Interfaz {
         img.style.width = '150px';
         divDos.style.textAlign = 'center';
 
-        img.src = '../img/spinner.gif';
+        img.src = './img/spinner.gif';
         divUno.innerHTML = `${mensaje}`;
 
         divDos.appendChild(img);
