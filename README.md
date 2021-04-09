@@ -3,4 +3,4 @@ Este Proyecto Esta Construido Con Html5, Css3, Responsive Web Design, JavaScript
 De La Marca, El Año Y La Categoria Del Seguro. 
 
 ### Puedes Verlo Aquí: 
-https://danielfernandoyepezvelez.github.io/Proyecto-Cotizador-Seguros/
+https://danielfernandoyepezvelez.github.io/04-Proyecto-JavaScript-Cotizador-Seguros/index.html
